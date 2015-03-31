@@ -1,8 +1,7 @@
 {
-  "name": "ember-cli-html5-validation",
+  "name": "ember-cli-html5-form-validation",
   "version": "0.0.16",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "scripts": {
@@ -10,11 +9,14 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "https://github.com/maestrooo/ember-cli-html5-validation",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xyrox2/ember-cli-html5-form-validation"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Roman Lewin <rome.gregori@googlemail.com> (http://manyroads.de)",
   "license": "MIT",
   "devDependencies": {
     "body-parser": "^1.2.0",
@@ -36,5 +38,11 @@
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "description": "This Ember CLI addon aims to provide a simple form validation feature. It also includes a simple async button that is aims to be used with forms for better user experience.",
+  "bugs": {
+    "url": "https://github.com/xyrox2/ember-cli-html5-form-validation/issues"
+  },
+  "homepage": "https://github.com/xyrox2/ember-cli-html5-form-validation",
+  "main": "index.js"
 }
